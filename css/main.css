@@ -37,7 +37,6 @@ a {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: gray;
-    transform: scale(.9);
 }
 
 .navbar {
@@ -49,8 +48,10 @@ a {
 }
 
 .btn-primary {
-    background-color: black;
-    border-color: black;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 2em;
 }
 
 a {
