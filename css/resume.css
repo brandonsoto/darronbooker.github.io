@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+/*------nav-----*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: 'Titillium Web', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 45px;
+}
+
+.logo {
+    height: 200px;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-image:url(/img/logo/logo_web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*-----header-----*/
+
+button {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto 0 auto;
+    width: 49%;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 10px
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 15px;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+button a:hover {
+    color: white;
+    
+}
+
+
+
+/*-----body-----*/
+
+
+
+.about-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+    /*-----pic-----*/
+
+.header {
+    height: 00px;
+    margin-top: 100px;
+}
+
+.resume {
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+
+/*-----footer-----*/
+
+
+
+footer li a {
+    margin-top: 90px;
+    font-size: 12px;
+    padding: 4px px;
+}
+
+.soc-med1 {
+    width: 21px;
+}
+
+.soc-med2 {
+  width: 20px;
+}
+
+.soc-med3 {
+ width: 21.4px;
+}
+
+.soc-med4 {
+    width: 24px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+.soc-med-row {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-top: 89px;
+    margin-left: 15px;
+}

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+/*------nav-----*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: 'Titillium Web', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 85px
+}
+
+.logo {
+    height: 200px;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-image:url(/img/logo/logo_web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*-----header-----*/
+
+.intro {
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.header-pic {
+    background-image: url(/img/logo/logo2.png);
+    height: 50px;
+}
+
+.about{
+    font-family: 'Titillium Web', sans-serif;
+/*    text-align: center;*/
+    letter-spacing: 15px;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+
+
+.about {
+    margin-top: 150px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.row {
+    height: 150px;
+    width: 100%;
+    margin: 0 auto 100px auto;
+    margin-top: inherit; 
+    padding-top: 40px;
+
+}
+
+.row section {
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    margin-left: 30px;
+}
+
+.row section p {
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    height: 200px;
+    font-size: 13px
+}
+
+/*-----body-----*/
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.main-banner {
+    background-color: black;
+    height: 300px;
+}
+
+.about-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----pic-----*/
+
+
+
+/*-----footer-----*/
+
+
+
+footer li a {
+    margin-top: 89px;
+    font-size: 12px
+    
+}
+
+.soc-med1 {
+    width: 21px;
+}
+
+.soc-med2 {
+  width: 20px;
+}
+
+.soc-med3 {
+ width: 21.4px;
+}
+
+.soc-med4 {
+    width: 24px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+
+.soc-med-row {
+    width: 27%;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-top: 96px
+}

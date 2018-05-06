@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+/*------nav-----*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: 'Titillium Web', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 85px
+}
+
+.logo {
+    height: 200px;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-image:url(/img/logo/logo_web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/*-----body-----*/
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*-----pic-----*/
+
+
+ 
+
+.column {
+    width: 50%;
+    margin: 100px;
+    align-content: center;
+}
+
+
+.column img {
+    margin-top: 10px;
+    width: 19%;
+   
+}
+
+
+
+/*
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+*/
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}
+
+
+
+
+/*-----footer-----*/
+
+
+
+footer li a {
+    margin-top: 285px;
+    float: right;
+}
+
+.soc-med1 {
+    width: 21px;
+}
+
+.soc-med2 {
+    width: 20px;
+}
+
+.soc-med3 {
+    width: 21px;
+}
+
+.soc-med4 {
+    width: 24px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+.soc-med-row {
+    display: inline-block;
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px
+}
