@@ -23,6 +23,31 @@ ul {
     margin-bottom: 0;
 }
 
+a {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: gray;
+    transform: scale(.9);
+}
+
+.navbar {
+    background-color: black
+}
+
+.navbar-light, .navbar-nav {
+    color: white;
+}
+
 .btn-primary {
     background-color: black;
     border-color: black;
