@@ -14,10 +14,10 @@ $(function () {
                     .attr("src", inner_value["thumbnail"])
                     .on('click', function () {
                         for (var i = 0; i < inner_value["images"].length; i++) {
-                            var $full_image = $("<div>").addClass("mySlides");
+                            var $full_image = $("<div>").addClass("mySlides text-center");
                             $("<div>").addClass("numbertext").html((i + 1) + " / " + inner_value["images"].length).appendTo($full_image);
                             var $image = $("<img>").attr("src", inner_value["images"][i]);
-                            $image.attr("width", "100%").appendTo($full_image);
+                            $image.addClass("center-fit").appendTo($full_image);
                             $full_image.appendTo("#modal-content");
                         }
                         selected_pic = inner_value["thumbnail"];
